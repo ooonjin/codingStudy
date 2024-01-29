@@ -1,2 +1,5 @@
-a = [7, 2, 1, 8, 9, 10]
-largeat = a[]
+for a in range(10):
+    for b in range(10):
+        print(str(a)+"x"+str(b)+"="+str(a*b),end=" ")
+    
+    print()
